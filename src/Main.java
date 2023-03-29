@@ -118,7 +118,7 @@ public class Main {
                 ClearScreen();
                 for (Hero hero : dataHero) {
                     hero.Display(chooseChar);
-                    hero.regionBuff();
+                    hero.regionBuff(chooseChar);
                 }
             }
         } else if (choose == 2) {

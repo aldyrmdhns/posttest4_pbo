@@ -37,16 +37,19 @@ public class Hero extends Character{
     }
 
     public void regionBuff(String names){
-        super.regionBuff();
         if (super.name.equals(names)){
             if (super.region.equals("Mondstat")){
+                super.regionBuff();
                 System.out.println("Mondstat Character Got +20% Movement Speed");
             }
             else if (super.region.equals("Liyue")){
+                super.regionBuff();
                 System.out.println("Liyue Character Got -25% Stamina Reduction and +15% HP Increase");
             } else if (super.region.equals("Inazuma")){
+                super.regionBuff();
                 System.out.println("Inazuma Character Got +25% Increased chance while fishing");
             } else if (super.region.equals("Sumeru")){
+                super.regionBuff();
                 System.out.println("Sumeru Character Got +50% increased chance to double the potion");
             }
         }
